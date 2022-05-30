@@ -10,6 +10,6 @@ jobs:
       uses: soos-io/soos-sca-github-action@v1.0.4 
       with:
         project_name: "selene-github-action-sca"
-        SOOS_CLIENT_ID: ${{ secrets.SOOS_CLIENT_ID }}
-        SOOS_API_KEY: ${{ secrets.SOOS_API_KEY }}
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
         api_url: "https://qa-api.soos.io/api/"
